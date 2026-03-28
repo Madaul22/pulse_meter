@@ -69,12 +69,6 @@ Logica sistemului este guvernată de un automat de stări finit (FSM). Mai jos e
 | `an[0-3]` | U2-W4 | Anozi Display 7-Seg |
 
 ---
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="mailto:alexhdplusro@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-</p>
-
 <p align="center">
   <i>Realizat de Mădărășan Ioan-Alexandru</i>
 </p>
