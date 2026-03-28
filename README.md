@@ -45,7 +45,7 @@ Proiectul este organizat pentru a asigura o integrare ușoară în Vivado:
 Logica sistemului este guvernată de un automat de stări finit (FSM). Mai jos este prezentată diagrama de tranziții originală care a stat la baza implementării VHDL:
 
 <p align="center">
-  <img src="Diagrama de tranzitii_Madarasan_Marginean.jpg" alt="Diagrama de tranzitii" width="600"/>
+  <img src="Diagrama de tranzitii_pulse_meter.jpg" alt="Diagrama de tranzitii" width="600"/>
 </p>
 
 #### Descrierea Stărilor:
