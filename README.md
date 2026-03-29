@@ -24,7 +24,7 @@ Acest proiect implementează un dispozitiv de măsurare a pulsului (BPM) utiliz�
 Logica sistemului este guvernată de un automat de stări finit (FSM). Mai jos este prezentată diagrama de tranziții originală care a stat la baza implementării VHDL:
 </p>
 <p align="center">
-  <img src="diagrama_tranzitii_pulse_meter" alt="Diagrama de tranzitii" width="600"/>
+  <img src="diagrama_tranzitii_pulse_meter.png" alt="Diagrama de tranzitii" width="600"/>
 </p>
 <p>
 Descrierea Stărilor:
