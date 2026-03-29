@@ -33,22 +33,25 @@ Acest proiect implementează un dispozitiv de măsurare a pulsului (BPM) utiliz�
 
 ---
 
-### 📟 Funcționare (Diagrama de Stări)
-
+<h2>Funcționare (Diagrama de Stări)</h2>
+<p>
 Logica sistemului este guvernată de un automat de stări finit (FSM). Mai jos este prezentată diagrama de tranziții originală care a stat la baza implementării VHDL:
-
+</p>
 <p align="center">
   <img src="Diagrama de tranzitii_pulse_meter.jpg" alt="Diagrama de tranzitii" width="600"/>
 </p>
-
-#### Descrierea Stărilor:
-1.  **`Start`**: Starea inițială, așteaptă activarea sistemului.
-2.  **`SwOn`**: Înregistrează primul impuls (dezactivarea switch-ului).
-3.  **`Inceput`**: Pregătește contorul pentru măsurarea duratei.
-4.  **`Count`**: Starea activă de numărare, măsoară timpul dintre impulsuri.
-5.  **`Final`**: Înregistrează al doilea impuls și oprește măsurarea.
-6.  **`Pulse`**: Calculează valoarea pulsului (BPM) pe baza timpului măsurat.
-7.  **`Afisaj`**: Trimite valoarea calculată către modulele de conversie și afișare.
+<p>
+Descrierea Stărilor:
+</p>
+<ol>
+    <li><b>Start:</b> Starea inițială, așteaptă activarea sistemului.</li>
+    <li><b>SwOn:</b> Înregistrează primul impuls (dezactivarea switch-ului).</li>
+    <li><b>Inceput:</b> Pregătește contorul pentru măsurarea duratei.</li>
+    <li><b>Count:</b> Starea activă de numărare, măsoară timpul dintre impulsuri.</li>
+    <li><b>Final:</b> Înregistrează al doilea impuls și oprește măsurarea.</li>
+    <li><b>Pulse:</b> Calculează valoarea pulsului (BPM) pe baza timpului măsurat.</li>
+    <li><b>Afisaj:</b> Trimite valoarea calculată către modulele de conversie și afișare.</li>
+</ol>
 
 ---
 
