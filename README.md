@@ -1,42 +1,35 @@
-<h1 align="center">💓 Pulse Meter - FPGA Basys 3</h1>
-<h3 align="center">Proiect Sisteme cu Circuite Integrate Digitale - Vivado</h3>
-
+<h1 align="center"> Pulse Meter - FPGA Basys 3</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Project_Completed-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Hardware-Basys_3_FPGA-orange?style=for-the-badge" alt="Hardware">
   <img src="https://img.shields.io/badge/Language-VHDL-blue?style=for-the-badge" alt="Language">
 </p>
 
 ---
 
-### 📝 Descriere Proiect
+<h2>Descriere Proiect</h2>
+<p>
 Acest proiect implementează un dispozitiv de măsurare a pulsului (BPM) utilizând o placă de dezvoltare **Basys 3**. Sistemul calculează frecvența impulsurilor primite prin intermediul unui buton și afișează rezultatul în timp real pe un display cu 7 segmente.
-
-- ⚙️ **Arhitectură:** FSM (Finite State Machine) cu 7 stări.
-- ⏱️ **Precizie:** Divizor de ceas de $1kHz$ pentru măsurarea duratei în $ms$.
-- 🔢 **Conversie:** Modul dedicat Bin-to-BCD pentru afișaj.
-
----
-
-### 📂 Structură Repository
-Proiectul este organizat pentru a asigura o integrare ușoară în Vivado:
-
-- 📁 **`src/`**
-  - `top_level.vhd` - Instanțierea tuturor componentelor.
-  - `pulse_meter_fsm.vhd` - Logica de control a stărilor.
-  - `bpm_calculator.vhd` - Calculul matematic al pulsului.
-- 📁 **`constraints/`**
-  - `Basys3.xdc` - Configurarea pinilor pentru ceas, butoane și display.
-- 📁 **`docs/`**
-  - `Diagrama de tranzitii.jpg` - Schița originală a automatului de stări.
-
----
-
-### 🛠️ Languages and Tools:
-<p align="left">
-  <img src="https://img.shields.io/badge/Xilinx_Vivado-FF0000?style=for-the-badge&logo=xilinx&logoColor=white" alt="Vivado" />
-  <img src="https://img.shields.io/badge/VHDL-5C2D91?style=for-the-badge" alt="VHDL" />
 </p>
+<ul>
+  <li><b>Arhitectură:</b> FSM (Finite State Machine) cu 7 stări.</li>
+  <li><b>Precizie:</b> Divizor de ceas de 1kHz pentru măsurarea duratei în ms.</li>
+  <li><b>Conversie:</b> Modul dedicat Bin-to-BCD pentru afișaj.</li>
+</ul>
+
+---
+
+<h2>Limbaj si unelte folosite:</h2>
+<ul>
+  <li>
+    <a href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html">
+      Xilinix Vivado
+  </li>
+  <li>
+    <a href="https://nandland.com/introduction-to-vhdl-for-beginners-with-code-examples/">
+      VHDL
+  </li>
+</ul>
 
 ---
 
